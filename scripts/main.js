@@ -4,24 +4,16 @@ const results = () => {
   let age = document.getElementById('age').value;
   let bully = doument.getElementById('bully').value;
   let task = document.getElementById('task').value;
+  let motivation = document.getElementById('motivation').value;
 
-  // if (document.getElementById('role').selected = "Officer") {
-  //   rank = document.getElementById('role').value;
-  // } else if (document.getElementById('role').selected = "Warrant") {
-  //   rank = document.getElementById('role').value;
-  // } else if (document.getElementById('role').selected = "NCO") {
-  //   rank = document.getElementById('role').value;
-  // } else {
-  //   rank = document.getElementById('role').value;
-  // }
-
-  if (document.getElementById('recommend1').checked) {
-    poll = document.getElementById('recommend1').value;
-  } else if (document.getElementById('recommend2').checked) {
-    poll = document.getElementById('recommend2').value;
+  if (document.getElementById('recommend-1').checked) {
+    poll = document.getElementById('recommend-1').value;
+  } else if (document.getElementById('recommend-2').checked) {
+    poll = document.getElementById('recommend-2').value;
   } else {
-    poll = document.getElementById('recommend3').value;
+    poll = document.getElementById('recommend-3').value;
   }
+
 
   let comments = document.getElementById('comment').value;
 
@@ -31,7 +23,9 @@ const results = () => {
   document.write(name + "<br/>");
   document.write(email + "<br/>");
   document.write(age + "<br/>");
+  document.write(bully + "<br/>");
   document.write(task + "<br/>");
-  document.write(comments + "<br/>");
+  document.write(motivation + "<br/>");
   document.write(poll + "<br/>");
+  document.write(comments);
 }
