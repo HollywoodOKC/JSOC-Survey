@@ -14,7 +14,7 @@
 <body>
   <h1>JSOC Operator Survey</h1>
 
-  <form method="post" id="form">
+  <form onsubmit="return results();" id="form">
 
     <div class="form-control">
       <label for="name" id="label-name">
@@ -67,7 +67,7 @@
 
     <div class="form-control">
       <label>Certifications and Qualifications
-        <small>(CHeck all that apply)</small>
+        <small>(Check all that apply)</small>
       </label>
       <label for="inp-1">
         <input type="checkbox" name="inp">Assaulter</input>
