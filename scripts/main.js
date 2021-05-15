@@ -2,6 +2,7 @@ const results = () => {
   let name = document.getElementById('name').value;
   let email = document.getElementById('email').value;
   let age = document.getElementById('age').value;
+  let motivate = document.getElementById('motivation').value;
 
   if (document.getElementById('recommend-1').checked) {
     poll = document.getElementById('recommend-1').value;
@@ -20,4 +21,5 @@ const results = () => {
   document.write(email + "<br/>");
   document.write(poll + "<br/>");
   document.write(age + "<br/>");
+  document.write(motivate + "<br/>");
 }
