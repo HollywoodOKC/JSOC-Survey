@@ -14,11 +14,11 @@
 <body>
   <h1>JSOC Operator Survey</h1>
 
-  <form onsubmit="return results();" id="form">
+  <form onsubmit="return results();" method="post" action="mailto:T_Lane11@yahoo.com" id="form">
 
     <div class="form-control">
       <label for="name" id="label-name">
-        1-10 How satisfied are you with your current unit?
+        How would you briefly describe your experience thus far? Positive, negative, etc.
       </label>
 
       <input type="text" id="name" placeholder="Not Required"/>
@@ -26,18 +26,40 @@
 
     <div class="form-control">
       <label for="email" id="label-email">
-        1-10 How well does your NCOs communicate with you?
+        Do your NCO’s communicate with you frequently and effectively?
       </label>
 
-      <input type="email" id="email" placeholder="Not Required"/>
+      <input type="text" id="email" placeholder="Not Required"/>
     </div>
 
     <div class="form-control">
       <label for="age" id="label-age">
-        10-10 How much of a badass is Hollywood?
+        Do you find that your particular unit is functioning at the level it should be?
       </label>
 
       <input type="text" id="age" placeholder="Not Required"/>
+    </div>
+
+    <div class="form-control">
+      <label for="motivation" id="label-motivation">
+        What would motivate you to increase your activity level?
+      </label>
+
+      <input type="text" id="motivation" placeholder="Not Required"/>
+    </div>
+
+    <div class="form-control">
+      <label for="bully" id="label-q1">
+        Have you experienced any form of bullying, insensitivity, or bigotry in your time here? If so, elaborate please.
+      </label>
+
+      <input type="text" id="bully" placeholder="Not Required"/>
+    </div>
+
+    <div class="form-control">
+      <label for="task" id="label-q2">
+
+      </label>
     </div>
     <div class="form-control">
       <label for="role" id="label-role">Which option describes you?</label>
