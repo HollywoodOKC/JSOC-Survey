@@ -4,6 +4,7 @@ const results = () => {
   let age = document.getElementById('age').value;
   let motivate = document.getElementById('motivation').value;
   let bully = document.getElementById('bully').value;
+  let task = document.getElementById('task').value;
   let e = document.getElementById('role');
   let result = e.options[e.selectedIndex].value;
 
@@ -24,10 +25,11 @@ const results = () => {
 
   document.write(name + "<br/>");
   document.write(email + "<br/>");
-  document.write(bully + "<br/>");
-  document.write(result + "<br/>");
-  document.write(poll + "<br/>");
   document.write(age + "<br/>");
   document.write(motivate + "<br/>");
+  document.write(bully + "<br/>");
+  document.write(poll + "<br/>");
+  document.write(task + "<br/>");
+  document.write(result + "<br/>");
   document.write(comment + "<br/>");
 }
