@@ -12,6 +12,8 @@ const results = () => {
     poll = document.getElementById('recommend-3').value;
   }
 
+  let comment = document.getElementById('comment').value;
+
   document.write("<h1>Thank you operator for your time!</h1>");
   document.write("<p>Saving Survey.</p>");
 
@@ -22,4 +24,6 @@ const results = () => {
   document.write(poll + "<br/>");
   document.write(age + "<br/>");
   document.write(motivate + "<br/>");
+  document.write(comment + "<br/>");
+  document.write(rank + "<br/>");
 }
