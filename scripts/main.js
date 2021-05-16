@@ -16,6 +16,7 @@ const results = () => {
     poll = document.getElementById('recommend-3').value;
   }
 
+
   let comment = document.getElementById('comment').value;
 
   document.write("<h1>Thank you operator for your time!</h1>");
