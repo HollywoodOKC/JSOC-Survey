@@ -27,5 +27,4 @@ const results = () => {
   document.write(age + "<br/>");
   document.write(motivate + "<br/>");
   document.write(comment + "<br/>");
-  document.write(rank + "<br/>");
 }
