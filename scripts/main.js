@@ -4,6 +4,8 @@ const results = () => {
   let age = document.getElementById('age').value;
   let motivate = document.getElementById('motivation').value;
   let bully = document.getElementById('bully').value;
+  let e = document.getElementById('role');
+  let result = e.options[e.selectedIndex].value;
 
   if (document.getElementById('recommend-1').checked) {
     poll = document.getElementById('recommend-1').value;
@@ -23,6 +25,7 @@ const results = () => {
   document.write(name + "<br/>");
   document.write(email + "<br/>");
   document.write(bully + "<br/>");
+  document.write(result + "<br/>");
   document.write(poll + "<br/>");
   document.write(age + "<br/>");
   document.write(motivate + "<br/>");
