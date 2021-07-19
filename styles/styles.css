@@ -1,15 +1,15 @@
 body {
-  background-color: #333;
+  background-color: hsl(0, 0%, 20%);
   font-family: Verdana;
   text-align: center;
 }
 
 form {
-  background-color: darkgray;
+  background-color: hsl(0, 0%, 66.3%);
   max-width: 500px;
   margin: 50px auto;
   padding: 30px 20px;
-  box-shadow: 2px 5px 10px rgba(0,0,0,0.5);
+  box-shadow: 2px 5px 10px hsla(0, 0%, 0%, 0.5);
 }
 
 .form-control {
@@ -25,7 +25,7 @@ form {
 .form-control input,
 .form-control select,
 .form-control textarea {
-  border: 1px solid #777;
+  border: 1px solid hsl(0, 0%, 46.7%);
   border-radius: 2px;
   font-family: inherit;
   padding: 10px;
@@ -40,8 +40,8 @@ form {
 }
 
 button {
-  background-color: #05c46b;
-  border: 1px solid #777;
+  background-color: hsl(152, 95%, 39.4%);
+  border: 1px solid hsl(0, 0%, 46.7%);
   border-radius: 2px;
   font-family: inherit;
   font-size: 21px;
